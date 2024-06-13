@@ -5,7 +5,7 @@ export const Card = ({ name, username, mail }) => {
             <li className="card">
                 <div className="card-container">
                     <figure className="img-container">
-                        <img className="card-img" src="https://fastly.picsum.photos/id/134/300/300.jpg?hmac=b3gMz-pfa737vVp8dKmvrVyW-eLFdbJ6Zju4XLUr62k"></img>
+                        <img className="card-img" src={`https://picsum.photos/200/300?random=${id}`}></img>
                     </figure>
                     <div className="card-body">
                         <div className='card-details'>

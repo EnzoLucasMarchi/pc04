@@ -4,9 +4,9 @@ import { CardList } from './assets/CardList/CardList'
 
 function App() {
   const [data, setData] = useState([])
+  
   const getData = async ()=>{
     const rs = await ((await fetch ('https://jsonplaceholder.typicode.com/users')).json())
-
     setData(rs)
   }
 
