@@ -1,5 +1,5 @@
 import './Card.css'
-export const Card = ({ name, username, mail }) => {
+export const Card = ({ id, name, username, mail }) => {
     return (
         <>
             <li className="card">
